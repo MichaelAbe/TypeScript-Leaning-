@@ -6,6 +6,8 @@ let age = '30'
 
 let isChampion = true
 
+let champions = ['Kimi', 'Seb', char]
+
 // char = 34
 // age = young
 // isChampion = '6 times' 
@@ -20,8 +22,10 @@ inputs.forEach(input => {
     console.log(input)
 })
 
-const circum = (diam) => {
+const circum = (diam: number) => {
     return diam * Math.PI
 }
 
 console.log(circum(7))
+
+console.log(circum(3.14))

@@ -2,6 +2,7 @@
 var char = 'Lewis';
 var age = '30';
 var isChampion = true;
+var champions = ['Kimi', 'Seb', char];
 // char = 34
 // age = young
 // isChampion = '6 times' 
@@ -15,3 +16,4 @@ var circum = function (diam) {
     return diam * Math.PI;
 };
 console.log(circum(7));
+console.log(circum(3.14));
